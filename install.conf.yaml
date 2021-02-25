@@ -3,7 +3,7 @@
       relink: true
 
 - shell:
-  - [sudo chsh -s $(which zsh), Making zsh the default shell]
+  - [chsh -s $(which zsh), Making zsh the default shell]
   - [sh pre-install.sh, Running pre installation script]
 
 - clean: ['~']
