@@ -1,4 +1,4 @@
 Import-Module posh-git
 Import-Module oh-my-posh
 
-Set-PoshPrompt slim
+Set-PoshPrompt -Theme $HOME/.dotfiles/oh-my-posh.omp.json
