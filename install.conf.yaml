@@ -1,0 +1,8 @@
+- defaults:
+    link:
+      relink: true
+
+
+- shell:
+  - [sh pre-install.sh, Running pre installation script]
+
