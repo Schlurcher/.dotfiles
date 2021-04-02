@@ -18,8 +18,8 @@ if (Get-Module -Name posh-git) {
 # Check oh-my-posh
 if (Get-Module -Name oh-my-posh) {
     Write-Output "Updating oh-my-posh"
-    Update-Module -Name oh-my-posh -Scope CurrentUser
+    Update-Module -Name oh-my-posh
 } else {
     Write-Output "Installing oh-my-posh"
-    Install-Module -Name oh-my-posh -Scope CurrentUser
+    Install-Module -Name oh-my-posh
 }
